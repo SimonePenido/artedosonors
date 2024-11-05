@@ -726,7 +726,7 @@ html[xmlns] .slides {
 .services-box .services-icon {
 	width: 50px;
 	height: 50px;
-	color: #494A4B;
+	color: #c3c5c7;
 	font-size: 22px;
 	line-height: 50px;
 	margin-bottom: 30px;
@@ -833,6 +833,8 @@ html[xmlns] .slides {
 	width: 100%;
 	-webkit-transition: all0.3s ease-out;
 	transition: all 0.3s ease-out;
+	border-radius: 10px;
+	padding: 1em;
 }
 
 .work-item .work-info {
@@ -853,17 +855,32 @@ html[xmlns] .slides {
 .work-item:hover .work-info {
 	opacity: 1;
 }
-
 .work-item .work-info .work-info-detail {
 	width: 100%;
 	height: 100%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	opacity: 0;
-	-webkit-transform: translateY(65%);
-	-ms-transform: translateY(65%);
-	transform: translateY(65%);
+	-webkit-transform: translateY(45%);
+	-ms-transform: translateY(45%);
+	transform: translateY(45%);
 	-webkit-transition: all 0.2s linear;
 	transition: all 0.2s linear;
+}
+
+.work-item .work-info .work-info-detail a {
+	background: #D9A036;
+	color: #FFF;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	-webkit-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+
+.work-item .work-info .work-info-detail a:hover {
+	background: #AC6C25;
 }
 
 .work-item:hover .work-info .work-info-detail {
@@ -879,7 +896,7 @@ html[xmlns] .slides {
 }
 
 .work-item .work-info .work-info-detail p {
-	margin-bottom: 15;
+	margin-bottom: 10px;
 }
 
 .work-item .work-info .work-info-detail h4:after {
@@ -1055,10 +1072,21 @@ html[xmlns] .slides {
 	font-size: 20px;
 	font-weight: 500;
 	opacity: 0.9;
+	color: #fff;
 }
 
 .features-intro p {
 	font-size: 16px;
+	color: #D9A036;
+}
+
+
+.features-info h4,h2{
+	color: #747474;
+}
+
+.features-info p{
+	color: #D9A443;
 }
 
 .features-main {
@@ -1082,7 +1110,7 @@ html[xmlns] .slides {
 	height: 55px;
 	line-height: 55px;
 	text-align: center;
-	color: #515456;
+	color: #D9A036;
 	font-size: 22px;
 	font-weight: 600;
 	border: 1px solid #515456;
@@ -1239,7 +1267,7 @@ html[xmlns] .slides {
 #testimonials .items {
 	margin-bottom: 30px;
 	margin-top: -7px;
-	color: #474545;
+	color: #383737;
 }
 
 #testimonials .desc {
@@ -1283,7 +1311,7 @@ html[xmlns] .slides {
 
 .clients-carousel figure {
 	margin: 5px;
-	background: rgba(172, 108, 32, 0.35);
+	background: rgba(172, 151, 32, 0.35);
 	padding: 40px 10px;
 	margin-bottom: 30px;
 
