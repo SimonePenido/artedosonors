@@ -541,6 +541,7 @@ html[xmlns] .slides {
 	margin-bottom: 20px;
 	color: #D9A036;
 	letter-spacing: 5px;
+	text-shadow: 1px 1px 1px black;
 }
 
 #home p {
@@ -548,8 +549,9 @@ html[xmlns] .slides {
 	margin-bottom: 50px;
 	font-weight: normal;
 	line-height: 28px;
-	color: #D9A036;
+	color: #D9A443;
 	font-weight: 400;
+	text-shadow: 1px 1px 1px black;
 }
 
 .tb {
@@ -571,6 +573,7 @@ html[xmlns] .slides {
 
 .tb-cell a {
 	margin-bottom: 10px;
+	text-shadow: 2px 1px 1px #131212;
 }
 
 .tb-cell a:first-child {
@@ -608,15 +611,18 @@ html[xmlns] .slides {
 }
 
 .slide1 {
-	background: url(../images/slider/slide1.3.jpeg) center center;
+	background: url(../images/slider/slide1.3.jpg) center center;
+	
 }
 
 .slide2 {
-	background: url(../images/slider/slide2.1.jpeg) center center;
+	background: url(../images/slider/slide2.1.jpg) center center;
+	
 }
 
 .slide3 {
-	background: url(../images/slider/slide3.1.jpeg) center center;
+	background: url(../images/slider/slo.jpg) center center;
+	
 }
 
 
@@ -1116,7 +1122,7 @@ html[xmlns] .slides {
 	border: 1px solid #515456;
 	position: relative;
 	border-radius: 28px;
-	transition: all 0.5s ease-in-out 0s;
+	transition: all 200%s ease-in-out 0s;
 }
 
 .features-left .features-icon {
@@ -1596,7 +1602,7 @@ html[xmlns] .slides {
 	left: 0;
 	top: 0;
 	opacity: 0;
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0,200%);
 }
 
 .featured-works .item .featured-caption h4 {
@@ -1701,7 +1707,7 @@ html[xmlns] .slides {
 	top: 0px;
 	opacity: 0;
 	text-align: center;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 200%);
 }
 
 .post-img:hover .blog-img-hover {
