@@ -573,7 +573,7 @@ html[xmlns] .slides {
 
 .tb-cell a {
 	margin-bottom: 10px;
-	text-shadow: 2px 1px 1px #131212;
+	text-shadow: 1px 1px 1px #131212;
 }
 
 .tb-cell a:first-child {
@@ -707,7 +707,7 @@ html[xmlns] .slides {
 }
 
 .logo-nav {
-	float: left;
+	display: block;
 	padding: 30px 0px;
 }
 
@@ -784,8 +784,8 @@ html[xmlns] .slides {
 	color: #332F2F;
 	text-transform: uppercase;
 	cursor: pointer;
-	-webkit-transition: all 0.25s linear;
-	transition: all 0.25s linear;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
 }
 
 .filter.active,
